@@ -97,6 +97,10 @@ img {
 /* PÁGINA: QUEM-SOMOS */
 /* OBS: olhar 'section#redes-sociais' */
 
+section#redes-sociais {
+    justify-content: space-between;
+}
+
 div#texto-redes {
     font-size: 2em;
 }
@@ -104,6 +108,7 @@ div#texto-redes {
 span#redes-links {
     display: flex;
     flex-direction: column;
+    padding-right: 15rem;
 }
 
 span#redes-links a {
