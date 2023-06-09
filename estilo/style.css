@@ -57,7 +57,7 @@ nav > a {
 }
 
 nav > a:hover {
-    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.534);
 }
 
 main {
@@ -108,5 +108,11 @@ span#redes-links {
 
 span#redes-links a {
     padding: 1rem;
+    text-decoration: none;
+    color: white;
 }
 
+span#redes-links a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.534);
+}
