@@ -65,7 +65,7 @@ main {
     background-image: linear-gradient(to right top, #332e304b, #08080865);
 }
 
-section#principal {
+section#principal, section#redes-sociais {
     padding: 5rem;
     padding-top: 09rem;
     font-family: var(--font02);
