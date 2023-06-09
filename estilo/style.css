@@ -105,6 +105,10 @@ div#texto-redes {
     font-size: 2em;
 }
 
+div#texto-redes h1 {
+    font-size: 2.5em;
+}
+
 span#redes-links {
     display: flex;
     flex-direction: column;
