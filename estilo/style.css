@@ -90,3 +90,10 @@ section > div {
 img {
     width: 45.5rem;
 }
+
+/* PÁGINA: QUEM-SOMOS */
+/* OBS: olhar 'section#redes-sociais' */
+
+section#redes.sociais {
+    text-align: left;
+}
