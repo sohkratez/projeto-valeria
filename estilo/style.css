@@ -97,6 +97,10 @@ img {
 /* PÁGINA: QUEM-SOMOS */
 /* OBS: olhar 'section#redes-sociais' */
 
+main#q-s {
+    height: 80vh;
+}
+
 section#quem-somos {
     justify-content: space-between;
 }
@@ -128,4 +132,8 @@ span#sobre-nos h2 {
 .redes-links a:hover{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.534);
+}
+
+footer {
+    
 }
