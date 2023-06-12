@@ -65,7 +65,7 @@ main {
     background-image: linear-gradient(to right top, #332e304b, #08080865);
 }
 
-section#principal, section#redes-sociais {
+section#principal, section#quem-somos {
     padding: 5rem;
     padding-top: 09rem;
     font-family: var(--font02);
@@ -97,31 +97,35 @@ img {
 /* PÁGINA: QUEM-SOMOS */
 /* OBS: olhar 'section#redes-sociais' */
 
-section#redes-sociais {
+section#quem-somos {
     justify-content: space-between;
 }
 
-div#texto-redes {
+div#texto-quem-somos {
     font-size: 2em;
 }
 
-div#texto-redes h1 {
+div#quem-somos h1 {
     font-size: 2.5em;
 }
 
-span#redes-links {
-    display: flex;
-    flex-direction: column;
-    padding-right: 15rem;
+span#sobre-nos {
+    width: 50rem;
 }
 
-span#redes-links a {
-    padding: 1rem;
+span#sobre-nos h2 {
+    font-size: 1.8em;
+}
+
+.redes-links {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
     text-decoration: none;
     color: white;
 }
 
-span#redes-links a:hover {
+.redes-links a:hover{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.534);
 }
