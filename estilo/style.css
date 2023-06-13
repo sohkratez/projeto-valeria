@@ -22,8 +22,8 @@ html, body {
     min-height: 100vh;
     background-color: black;
     margin: 0rem;
-    overflow-y: hidden;
-}
+/*     overflow-y: hidden;
+ */}
 
 header {
     background-color: var(--cor04);
@@ -37,6 +37,11 @@ header {
 header > h1 > a {
     text-decoration: none;
     color: white;
+}
+
+header > h1 > a:hover{
+    color: rgba(255, 255, 255, 0.534);
+    font-weight: normal;
 }
 
 nav {
@@ -57,11 +62,12 @@ nav > a {
 }
 
 nav > a:hover {
+    font-size: 1.03em;
     color: rgba(255, 255, 255, 0.534);
 }
 
 main {
-    height: 90vh;
+    height: 83.2vh;
     background-image: linear-gradient(to right top, #332e304b, #08080865);
 }
 
@@ -121,6 +127,10 @@ span#sobre-nos h2 {
     font-size: 1.8em;
 }
 
+#list-media a {
+    padding: 1rem;
+}
+
 .redes-links {
     display: flex;
     flex-direction: column;
@@ -129,8 +139,9 @@ span#sobre-nos h2 {
     color: white;
 }
 
-.redes-links a:hover{
+.redes-links:hover{
     text-decoration: none;
+    font-weight: bold;
     color: rgba(255, 255, 255, 0.534);
 }
 
