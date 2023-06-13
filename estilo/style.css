@@ -135,8 +135,20 @@ span#sobre-nos h2 {
 }
 
 footer {
+    margin-left: 0.5rem;
     height: 2.2rem;
     background-image: linear-gradient(to right top, #332e304b, #08080865);
     font-family: var(--font02);
     color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.781);
+    /* o rgba acima se diferencia dos demais usados anteriormente pelo fato de o link estar como 'bold' */
 }
