@@ -98,7 +98,7 @@ img {
 /* OBS: olhar 'section#redes-sociais' */
 
 main#q-s {
-    height: 80vh;
+    height: 81vh;
 }
 
 section#quem-somos {
@@ -135,5 +135,8 @@ span#sobre-nos h2 {
 }
 
 footer {
-    
+    height: 2.2rem;
+    background-image: linear-gradient(to right top, #332e304b, #08080865);
+    font-family: var(--font02);
+    color: white;
 }
