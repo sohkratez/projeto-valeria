@@ -154,7 +154,7 @@ span#sobre-nos h2 {
 
 footer {
     padding-left: 0.5rem;
-    height: 2.2rem;
+    height: 1rem;
     background-image: linear-gradient(to right top, #332e30c4, #080808c5);    
     font-family: var(--font02);
     color: white;
