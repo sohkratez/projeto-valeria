@@ -32,6 +32,7 @@ header {
     font-family: var(--font01);
     font-size: 1.4em;
     font-weight: lighter;
+    position: sticky;
 }
 
 header > h1 > a {
