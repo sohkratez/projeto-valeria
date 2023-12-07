@@ -181,3 +181,15 @@ footer a:hover {
     color: rgba(255, 255, 255, 0.753);
     /* o rgba acima se diferencia dos demais usados anteriormente pelo fato de o link estar como 'bold' */
 }
+
+/* PÁGINA: AJUDE-NOS */
+
+#main-contribua {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#main-contribua p {
+    font-size: 0.7em;
+    padding: 1rem;
+}
