@@ -69,7 +69,8 @@ nav > a:hover {
 
 main {
     height: 83.2vh;
-    background-image: linear-gradient(to right top, #332e304b, #08080865);
+    background-color: var(--cor01);
+    /* background-image: linear-gradient(to right top, #332e304b, #08080865); */
 }
 
 #main-contribua {
@@ -153,11 +154,13 @@ span#sobre-nos h2 {
     color: rgba(255, 255, 255, 0.534);
 }
 
-/* footer {
+footer {
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
     height: 1rem;
     font-family: var(--font02);
     color: white;
+    text-align: right;
 }
 
 footer a {
@@ -169,4 +172,4 @@ footer a {
 footer a:hover {
     color: rgba(255, 255, 255, 0.781);
     /* o rgba acima se diferencia dos demais usados anteriormente pelo fato de o link estar como 'bold' */
-} */
+}
