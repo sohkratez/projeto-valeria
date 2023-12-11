@@ -253,5 +253,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover{
-    background-color: #131111ee;
+    background-color: rgba(0, 0, 0, 0.582);
 }
