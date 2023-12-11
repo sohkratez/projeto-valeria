@@ -77,7 +77,7 @@ main {
     color: white;
 }
 
-section#principal, section#quem-somos {
+#principal,#quem-somos {
     padding: 5rem;
     padding-top: 09rem;
     font-family: var(--font02);
@@ -89,7 +89,7 @@ section#principal, section#quem-somos {
     justify-content: center;
 }
 
-section#principal {
+#principal {
     font-size: 1.5em;
 }
 
@@ -102,6 +102,16 @@ section > div {
     text-align: justify;
 }
 
+#titulo{
+    font-size: 2.5em;
+    padding-bottom: 0.7rem;
+}
+
+#subtitulo {
+    font-size: 1em;
+    padding-top: 0.7rem;
+}
+
 img {
     width: 45.5rem;
 }
@@ -109,27 +119,27 @@ img {
 /* PÁGINA: QUEM-SOMOS */
 /* OBS: olhar 'section#redes-sociais' */
 
-main#q-s {
+#q-s {
     height: 81vh;
 }
 
-section#quem-somos {
+#quem-somos {
     justify-content: space-between;
 }
 
-div#texto-quem-somos {
+#texto-quem-somos {
     font-size: 2em;
 }
 
-div#quem-somos h1 {
+#quem-somos h1 {
     font-size: 2.5em;
 }
 
-span#sobre-nos {
+#sobre-nos {
     width: 50rem;
 }
 
-span#sobre-nos h2 {
+#sobre-nos h2 {
     font-size: 1.8em;
 }
 
