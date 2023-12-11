@@ -199,8 +199,16 @@ form {
 }
 
 input {
+    margin: 0.5rem;
     padding: 0.5rem;
-    width: 40rem;
+    width: 10rem;
+    border: 2px solid #a59d9fa4;
     background-color: var(--cor03);
     color: white;
+    transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    width: 40rem;
 }
