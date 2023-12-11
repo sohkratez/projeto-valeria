@@ -193,3 +193,14 @@ footer a:hover {
     font-size: 0.7em;
     padding: 1rem;
 }
+
+form {
+    padding-top: 3rem;
+}
+
+input {
+    padding: 0.5rem;
+    width: 40rem;
+    background-color: var(--cor03);
+    color: white;
+}
