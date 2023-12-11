@@ -194,8 +194,17 @@ footer a:hover {
     padding: 1rem;
 }
 
+#bg-form {
+    /* padding: 1rem 1rem; */
+    margin: 3rem auto;
+    background-color: var(--cor03);
+    width: 70rem;
+    height: 30rem;
+    border: 2px solid rgba(255, 255, 255, 0.466);
+}
+
 form {
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 input {
@@ -203,15 +212,21 @@ input {
     padding: 0.5rem;
     width: 10rem;
     border: 2px solid #a59d9fa4;
-    background-color: var(--cor03);
+    background-color: rgba(0, 0, 0, 0.582);
     color: white;
     font-size: 0.7em;
-    transition: width 0.4s ease-in-out;
+    transition: padding 0.2s ease-in-out;
 }
 
 input:focus {
     outline: none;
-    width: 30rem;
+    padding-right: 6rem;
+}
+
+#form-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input[type="text"] {
@@ -238,5 +253,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover{
-    background-color: #332e30af;
+    background-color: #131111ee;
 }
