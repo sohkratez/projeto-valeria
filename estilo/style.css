@@ -205,6 +205,7 @@ input {
     border: 2px solid #a59d9fa4;
     background-color: var(--cor03);
     color: white;
+    font-size: 0.7em;
     transition: width 0.4s ease-in-out;
 }
 
@@ -214,10 +215,28 @@ input:focus {
 }
 
 input[type="text"] {
-    width: 30rem;
+    width: 35rem;
 }
 
 input[type="text"]:focus {
     width: 50rem;
-    height: 10rem;
+    height: 05rem;
+}
+
+#form-button {
+    padding-top: 1rem;
+}
+
+button[type="submit"] {
+    padding: 1rem 3rem;
+    background-color: var(--cor03);
+    border: 2px solid #a59d9fa4;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: #332e30af;
 }
