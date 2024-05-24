@@ -82,7 +82,7 @@ nav > a:hover {
 }
 
 #nome-subtitulo {
-    background: linear-gradient(var(--cor03), var(--cor04));
+    background: linear-gradient(var(--cor02), var(--cor03));
     display: flex;
     flex-direction: column;
     justify-content: center;
