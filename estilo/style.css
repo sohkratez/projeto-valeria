@@ -19,19 +19,17 @@
 }
 
 html, body {
-    min-height: 100vh;
     background-color: black;
-    margin: 0rem;
-/*     overflow-y: hidden;
- */}
+}
 
 header {
     background-color: var(--cor04);
-    padding: 3vh;
+    padding: 1rem;
     color: white;
     font-family: var(--font01);
     font-size: 1.4em;
     position: sticky;
+    height: 5vh;
 }
 
 header > h1 > a {
@@ -64,42 +62,23 @@ nav > a:hover {
     color: rgba(255, 255, 255, 0.753);
 }
 
-main {
-    height: 83.2vh;
-    background-color: var(--cor01);
-    /* background-image: linear-gradient(to right top, #332e304b, #08080865); */
-}
-
-#main-contribua {
-    padding-left: 3rem;
-    padding-top: 2rem;
+#principal{
     font-family: var(--font02);
     color: white;
-}
-
-#principal,#quem-somos {
-    padding: 5rem;
-    padding-top: 09rem;
-    font-family: var(--font02);
-    color: white;
-    word-spacing: 5px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#principal {
     font-size: 1.5em;
+    background: url(../img/violencia02.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
 }
 
-section > div {
-    padding: 5rem;
-}
-
-.nome-subtitulo {
+#nome-subtitulo {
+    background: linear-gradient(var(--cor03), var(--cor04));
     display: flex;
-    text-align: justify;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45rem;
+    height: 20rem;
 }
 
 #titulo{
@@ -124,6 +103,14 @@ img {
 }
 
 #quem-somos {
+    padding: 5rem;
+    padding-top: 09rem;
+    font-family: var(--font02);
+    color: white;
+    word-spacing: 5px;
+
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -195,6 +182,10 @@ footer a:hover {
 /* PÁGINA: AJUDE-NOS */
 
 #main-contribua {
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-family: var(--font02);
+    color: white;
     font-size: 1.5em;
     text-align: center;
 }
