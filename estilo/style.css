@@ -17,15 +17,16 @@ html {
 
 /* HEADER */
 .header {
-    margin: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #fff;
 }
 
 .header img {
     width: 15rem;
     cursor: pointer;
+    margin: 0 1rem;
 }
 
 .header img:hover {
@@ -49,4 +50,11 @@ html {
     color: #ffffff86;
     transition: .5s;
     transform: scale(1.05);
+}
+
+/* SECTION - PRINCIPAL */
+.principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
