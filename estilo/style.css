@@ -1,0 +1,52 @@
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font: 'Work Sans', 'sans-serif';
+}
+
+html {
+    font-family: var(--font);
+    background-color: #000;
+    color: #fff;
+}
+
+/* HEADER */
+.header {
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 15rem;
+    cursor: pointer;
+}
+
+.header img:hover {
+    transition: .5s;
+    transform: scale(1.05);
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.nav-bar a:hover {
+    color: #ffffff86;
+    transition: .5s;
+    transform: scale(1.05);
+}
