@@ -40,7 +40,7 @@ html {
 }
 
 .nav-bar a {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
@@ -54,7 +54,23 @@ html {
 
 /* SECTION - PRINCIPAL */
 .principal {
+    padding: 6rem 4%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.principal-texto h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+
+.principal-texto p {
+    font-size: 1.2rem;
+}
+
+.principal-img img {
+    width: 60rem;
 }
