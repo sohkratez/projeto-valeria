@@ -66,6 +66,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding: 6rem 4%;
 }
 
 .principal-texto {
@@ -90,7 +91,7 @@ span {
 
 /* SECTION - ENTENDA A VIOLÊNCIA */
 .entenda-violencia {
-    padding: 4rem;
+    padding: 4rem 4%;
 }
 
 .entenda-violencia h1 {
