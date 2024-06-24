@@ -37,6 +37,7 @@ html {
 .nav-bar ul {
     display: flex;
     list-style-type: none;
+    margin-right: 2rem;
 }
 
 .nav-bar a {
@@ -47,9 +48,9 @@ html {
 }
 
 .nav-bar a:hover {
-    color: #ffffff86;
+    color: #ffffffb6;
     transition: .5s;
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 
 /* SECTION - PRINCIPAL */
