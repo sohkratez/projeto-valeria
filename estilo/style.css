@@ -59,12 +59,16 @@ html {
     background-size: cover;
     background-attachment: fixed;
     height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .principal-texto {
-    margin: 0 auto;
     background-color: #0000006b;
-    width: 50rem;
+    width: 45rem;
+    margin-left: 1.2rem;
+    line-height: 4rem;
 }
 
 .principal-texto h1 {
