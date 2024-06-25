@@ -191,6 +191,35 @@ span {
     font-weight: 600;
 }
 
+.quem-somos-texto p {
+    padding-bottom: 1rem;
+}
+
+.redes-p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.quem-somos-texto button {
+    width: 4rem;
+    height: 4rem;
+    background-color: #ffffff48;
+    border-radius: 2rem;
+    border: 2px solid #ffffff1a;
+    cursor: pointer;
+    margin: 0 0.2rem;
+}
+
+.quem-somos-texto button:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.quem-somos-texto button i {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
 /* SECTION - AJUDE-NOS */
 .ajude-nos {
     background-image: url(../img/violencia04.jpg);
