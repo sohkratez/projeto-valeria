@@ -230,6 +230,7 @@ span {
     resize: none;
     background-color: #ffffff48;
     border: 1px solid;
+    border-radius: 1rem
 }
 
 .formulario-item input::placeholder, textarea::placeholder {
@@ -251,7 +252,7 @@ span {
     font-weight: 600;
     text-transform: uppercase;
     border: 1px solid #ffffff1a;
-    border-radius: 10%;
+    border-radius: 1rem;
     margin: 2rem 0;
     cursor: pointer;
 }
