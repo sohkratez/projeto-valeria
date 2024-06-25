@@ -239,6 +239,7 @@ span {
 
 .formulario-item textarea {
     height: 10rem;
+    font-family: var(--font);
 }
 
 .container-formulario button {
