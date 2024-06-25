@@ -190,3 +190,11 @@ span {
     text-transform: uppercase;
     font-weight: 600;
 }
+
+/* SECTION - AJUDE-NOS */
+.ajude-nos {
+    background-image: url(../img/violencia04.jpg);
+    padding: 8rem 4%;
+    background-size: cover;
+    background-attachment: fixed;
+}
