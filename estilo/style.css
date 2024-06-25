@@ -197,4 +197,65 @@ span {
     padding: 8rem 4%;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.container-formulario {
+    background-color: #000000dc;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-formulario h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.formulario-item {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.formulario-item input, textarea {
+    font-size: 1.2rem;
+    resize: none;
+    background-color: #ffffff48;
+    border: 1px solid;
+}
+
+.formulario-item input::placeholder, textarea::placeholder {
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.formulario-item textarea {
+    height: 10rem;
+}
+
+.container-formulario button {
+    width: 6rem;
+    height: 3rem;
+    background-color: #ffffff48;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #ffffff1a;
+    border-radius: 10%;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+.container-formulario button:hover {
+    transition: 0.5s;
+    transform: scale(1.06);
 }
