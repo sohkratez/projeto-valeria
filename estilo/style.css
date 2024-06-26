@@ -200,7 +200,7 @@ span {
     font-weight: 600;
 }
 
-.quem-somos-texto button {
+.redes-sociais button {
     width: 4rem;
     height: 4rem;
     background-color: #ffffff48;
@@ -210,12 +210,12 @@ span {
     margin: 0 0.2rem;
 }
 
-.quem-somos-texto button:hover {
+.redes-sociais button:hover {
     transition: 0.5s;
     transform: scale(1.05);
 }
 
-.quem-somos-texto button i {
+.redes-sociais button i {
     color: #fff;
     font-size: 1.4rem;
 }
@@ -291,4 +291,38 @@ span {
 .container-formulario button:hover {
     transition: 0.5s;
     transform: scale(1.06);
+}
+
+/* SECTION - RODAPÉ */
+.rodape {
+    padding: 2rem 4%;
+}
+
+.rodape-cima {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+
+.logo-rodape img {
+    width: 20rem;
+}
+
+.rodape-baixo {
+    margin-top: 1rem;
+}
+
+.rodape-baixo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.rodape-baixo a {
+    margin: 0 0.5rem;
+}
+
+.rodape-baixo i {
+    font-size: 1rem;
 }
