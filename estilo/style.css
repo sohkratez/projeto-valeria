@@ -125,8 +125,8 @@ span {
 }
 
 .entenda-img img {
-    width: 60rem;
-    height: 35rem;
+    width: 40rem;
+    height: 25rem;
 }
 
 /* O QUE FAZEMOS E PORQUÊ */
@@ -156,9 +156,10 @@ span {
 }
 
 .conteudo {
-    width: 40rem;
+    width: 35rem;
     background-color: #00000071;
     border-radius: 1rem;
+    padding: 1rem;
 }
 
 .conteudo h3 {
