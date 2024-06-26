@@ -74,6 +74,7 @@ span {
     width: 45rem;
     margin-left: 1.2rem;
     line-height: 4rem;
+    border-radius: 1rem;
 }
 
 .principal-texto h1 {
@@ -120,6 +121,7 @@ span {
 
 .entenda-texto p {
     font-size: 1rem;
+    text-align: justify;
 }
 
 .entenda-img img {
@@ -145,6 +147,7 @@ span {
     margin: 0 auto;
     text-align: center;
     padding: 1rem;
+    border-radius: 1rem;
 }
 
 .oq-pq .flex {
@@ -155,6 +158,7 @@ span {
 .conteudo {
     width: 40rem;
     background-color: #00000071;
+    border-radius: 1rem;
 }
 
 .conteudo h3 {
@@ -162,6 +166,10 @@ span {
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 1rem;
+}
+
+.conteudo p {
+    text-align: justify;
 }
 
 /* SECTION - QUEM SOMOS */
@@ -193,6 +201,7 @@ span {
 
 .quem-somos-texto p {
     padding-bottom: 1rem;
+    text-align: justify;
 }
 
 .redes-p {
@@ -236,6 +245,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 1rem;
 }
 
 .container-formulario h2 {
