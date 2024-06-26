@@ -248,6 +248,7 @@ span {
 .formulario-item {
     display: flex;
     flex-direction: column;
+    gap: 0.2rem;
     width: 20rem;
     padding-bottom: 1rem;
     font-size: 1.4rem;
@@ -259,12 +260,13 @@ span {
     resize: none;
     background-color: #ffffff48;
     border: 1px solid;
-    border-radius: 1rem
+    border-radius: 1rem;
+    padding: 0.5rem;
+    color: #fff;
 }
 
 .formulario-item input::placeholder, textarea::placeholder {
     color: #fff;
-    padding: 0.5rem;
 }
 
 .formulario-item textarea {
