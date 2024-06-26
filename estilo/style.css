@@ -326,3 +326,46 @@ span {
 .rodape-baixo i {
     font-size: 1rem;
 }
+
+/* MEDIA-QUERIES */
+/* Media-query: 1400px */
+@media  screen and (max-width: 1400px) {
+    /* HEADER */
+
+    /* PRINCIPAL */
+    .principal {
+        padding: 0;
+    }
+
+
+    .principal-texto {
+        width: 30rem;
+        margin-left: 0.5rem;
+    }
+
+    .principal-texto p {
+        line-height: 2rem;
+        font-size: 1rem;
+    }
+
+    /* SECTION - ENTENDA A VIOLÊNCIA */
+    .entenda-texto h2 {
+        font-size: 1.8rem;
+    }
+
+    .entenda-img img {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    /* SECTION - O QUE FAZEMOS E PORQUE */
+    .conteudo {
+        width: 30rem;
+    }
+
+    /* SECTION - QUEM-SOMOS */
+
+    /* SECTION - AJUDE-NOS */
+
+    /* FOOTER */
+}
