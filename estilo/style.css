@@ -141,7 +141,6 @@ span {
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 600;
-    padding-bottom: 2rem;
     background-color: #00000071;
     width: 40rem;
     margin: 0 auto;
@@ -380,3 +379,51 @@ span {
 
     /* FOOTER */
 }
+
+/* Media-query: 1230px */
+@media screen and (max-width: 1230px) {
+    /* HEADER */
+    .header img {
+        width: 10rem;
+    }
+
+    .nav-bar a {
+        font-size: 1rem;
+    }
+
+    /* SECTION - PRINCIPAL */
+   
+    /* SECTION - ENTENDA A VIOLÊNCIA */
+    .entenda-texto {
+        width: 30rem;
+    }
+
+    /* SECTION - O QUE FAZEMOS E PORQUÊ */
+
+    .oq-pq {
+        padding: 6rem 4%;
+    }
+    
+    .conteudo {
+        width: 25rem;
+    }
+    
+    /* SECTION - QUEM-SOMOS */
+    .quem-somos .flex {
+        gap: 15rem;
+    }
+
+    .quem-somos-texto {
+        width: 25rem;
+    }
+
+    .quem-somos-img {
+        width: 15rem;
+    }
+
+    /* SECTION - AJUDE-NOS */
+
+
+    /* FOOTER */
+
+    }
