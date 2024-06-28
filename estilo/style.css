@@ -57,6 +57,10 @@ span {
     transform: scale(1.06);
 }
 
+.menu-lateral {
+    display: none;
+}
+
 /* SECTION - PRINCIPAL */
 .principal {
     background-image: url(../img/violencia01.jpg);
@@ -427,3 +431,8 @@ span {
     /* FOOTER */
 
     }
+
+/* Media-query - max-width: 1060px */
+@media screen (max-width: 1060px) {
+    .header 
+}
