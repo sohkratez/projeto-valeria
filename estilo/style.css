@@ -549,9 +549,20 @@ span {
     }
 
     /* SECTION - ENTENDA A VIOLÊNCIA */
+    .entenda {
+        padding: 2rem 2%;
+    }
+
+    .entenda-img img {
+        width: 16rem;
+        height: auto;
+    }
+
     .entenda-violencia h1 {
         font-size: 2rem;
     }
+
+    .entenda-violencia 
 
     .entenda-texto h2 {
         font-size: 1.4rem;
@@ -560,9 +571,14 @@ span {
 
     .entenda-texto p {
         font-size: 0.8rem;
+        width: auto;
     }
 
     /* SECTION - O QUE FAZEMOS E PORQUE */
+    .oq-pq {
+        padding: 2rem 2%;
+    }
+
     .oq-pq h2 {
         font-size: 2rem;
     }
@@ -576,8 +592,17 @@ span {
     }
 
     /* SECTION - QUEM-SOMOS */
+    .quem-somos {
+        padding: 2rem 2%;
+    }
+
     .quem-somos h2 {
         font-size: 2rem;
+    }
+    
+    .quem-somos-texto {
+        margin: 0 auto;
+        width: auto;
     }
 
     .quem-somos-texto h3 {
@@ -586,6 +611,10 @@ span {
 
     .quem-somos-texto p {
         font-size: 0.8rem;
+    }
+
+    .quem-somos-img img {
+        width: 10rem;
     }
 
     .redes-sociais button {
@@ -599,4 +628,28 @@ span {
     }
 
     /* SECTION - AJUDE-NOS */
+    .ajude-nos {
+        padding: 2rem 2%;
+    }
+
+    .container-formulario {
+        width: 30rem;
+    }
+
+    .container-formulario h2 {
+        font-size: 2rem;
+    }
+
+    .formulario-item {
+        font-size: 1rem;
+    }
+
+    .formulario-item input, textarea {
+        font-size: 0.8rem;
+    }
+
+    /* SECTION - RODAPE */
+    .rodape {
+        padding: 2rem 2%;
+    }
 }
