@@ -433,6 +433,86 @@ span {
     }
 
 /* Media-query - max-width: 1060px */
-@media screen (max-width: 1060px) {
-    .header 
+@media screen and (max-width: 1060px) {
+    /* HEADER */
+    .nav-bar {
+        display: none;
+    }
+
+    .menu-lateral {
+        display: flex;
+        margin-right: 1rem;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    /* SECTION - PRINCIPAL */
+    .principal-texto {
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    /* SECTION - ENTENDA A VIOLÊNCIA */
+    .entenda-violencia {
+        padding: 2rem 2%;
+    }
+
+    .entenda-violencia .flex {
+        flex-direction: column;
+    }
+
+    .entenda-texto {
+        order: 1;
+    }
+
+    .entenda-img {
+        padding-bottom: 3rem;
+    }
+
+    /* SECTION - O QUE FAZEMOS E PORQUÊ */
+    .oq-pq {
+        padding: 2rem 2%;
+    }
+
+    .oq-pq .flex {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* SECTION - QUEM-SOMOS */
+    .quem-somos .flex {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .quem-somos-texto, .quem-somos-texto p {
+        text-align: center;
+    }
+
+    .quem-somos-img {
+        width: auto;
+    }
+
+    /* SECTION - AJUDE-NOS */
+
+
+    /* FOOTER */
+    .rodape {
+        gap: 2rem;
+    }
+
+    .rodape-cima {
+        flex-direction: column;
+        width: 20rem;
+        margin: 0 auto;
+        gap: 1rem;
+    }
+
+    .rodape .redes-sociais {
+        margin-bottom: 1.4rem;
+    }
+
+    .rodape-baixo {
+        text-align: center;
+    }
 }
