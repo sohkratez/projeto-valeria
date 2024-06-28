@@ -537,6 +537,7 @@ span {
 
     /* SECTION - PRINCIPAL */
     .principal {
+        background-image: url(../img/violencia01-mediaquery.jpg);
         padding: 4rem 2%;
     }
 
@@ -562,6 +563,10 @@ span {
         font-size: 2rem;
     }
 
+    .entenda-texto {
+        text-align: center;
+    }
+
     .entenda-texto h2 {
         font-size: 1.4rem;
         text-align: center;
@@ -570,12 +575,13 @@ span {
     .entenda-texto p {
         font-size: 0.8rem;
         width: 20rem;
-        margin: 0 auto;
     }
 
     /* SECTION - O QUE FAZEMOS E PORQUE */
     .oq-pq {
         padding: 2rem 2%;
+        background-image: url(../img/violencia02-mediaquery.jpg);
+        background-position: center;
     }
 
     .oq-pq h2 {
@@ -634,6 +640,7 @@ span {
     /* SECTION - AJUDE-NOS */
     .ajude-nos {
         padding: 2rem 2%;
+        background-image: url(../img/violencia04-mediaquery.jpg);
     }
 
     .container-formulario {
