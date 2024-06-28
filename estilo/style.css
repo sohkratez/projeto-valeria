@@ -140,7 +140,7 @@ span {
     background-image: url(../img/violencia03.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
 }
 
 .oq-pq h2 {
@@ -391,7 +391,7 @@ span {
 @media screen and (max-width: 1230px) {
     /* HEADER */
     .header img {
-        width: 10rem;
+        width: 15rem;
     }
 
     .nav-bar a {
@@ -518,4 +518,85 @@ span {
     .rodape-baixo {
         text-align: center;
     }
+}
+
+/* Media-query: max-width: 700px */
+@media screen and (max-width: 700px) {
+    /* HEADER */
+    .header {
+        padding: 2rem 2%;
+    }
+
+    .header img {
+        width: 12rem;
+    }
+
+    .menu-lateral {
+        font-size: 1.8rem;
+    }
+
+    /* SECTION - PRINCIPAL */
+    .principal {
+        padding: 4rem 2%;
+    }
+
+    .principal-texto h1 {
+        font-size: 2rem;
+    }
+
+    .principal-texto p {
+        font-size: 0.8rem;
+    }
+
+    /* SECTION - ENTENDA A VIOLÊNCIA */
+    .entenda-violencia h1 {
+        font-size: 2rem;
+    }
+
+    .entenda-texto h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .entenda-texto p {
+        font-size: 0.8rem;
+    }
+
+    /* SECTION - O QUE FAZEMOS E PORQUE */
+    .oq-pq h2 {
+        font-size: 2rem;
+    }
+
+    .conteudo h3 {
+        font-size: 1rem;
+    }
+
+    .conteudo p {
+        font-size: 0.8rem;
+    }
+
+    /* SECTION - QUEM-SOMOS */
+    .quem-somos h2 {
+        font-size: 2rem;
+    }
+
+    .quem-somos-texto h3 {
+        font-size: 1rem;
+    }
+
+    .quem-somos-texto p {
+        font-size: 0.8rem;
+    }
+
+    .redes-sociais button {
+        width: 2rem;
+        height: 2rem;
+        margin: 0;
+    }
+
+    .redes-sociais button i {
+        font-size: 0.8rem;
+    }
+
+    /* SECTION - AJUDE-NOS */
 }
