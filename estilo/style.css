@@ -565,6 +565,7 @@ span {
 
     .entenda-texto {
         text-align: center;
+        width: auto;
     }
 
     .entenda-texto h2 {
@@ -572,9 +573,7 @@ span {
    }
 
     .entenda-texto p {
-        font-size: 0.8rem;
-        width: auto;
-        
+        font-size: 0.8rem;        
     }
 
     /* SECTION - O QUE FAZEMOS E PORQUE */
@@ -639,21 +638,25 @@ span {
 
     /* SECTION - AJUDE-NOS */
     .ajude-nos {
-        padding: 2rem 2%;
+        padding: 2rem 4%;
         background-image: url(../img/violencia04-mediaquery.jpg);
     }
 
     .container-formulario {
-        width: 30rem;
+        width: auto;
+        margin: 0 1rem;
     }
 
     .container-formulario h2 {
         font-size: 2rem;
         text-align: center;
+        margin: 1rem 2rem;
+        padding: 0;
     }
 
     .formulario-item {
         font-size: 1rem;
+        margin: 0 1rem;
     }
 
     .formulario-item input, textarea {
