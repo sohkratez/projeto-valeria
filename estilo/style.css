@@ -59,6 +59,65 @@ span {
 
 .menu-lateral {
     display: none;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff48;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+.menu-toggle i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.menu-toggle:hover {
+    background-color: #ffffff66;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+}
+
+.menu-items.expanded {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.menu-items li {
+    background-color: #ffffff18;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-items li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu-items li a:hover {
+    color: #ffffffb6;
 }
 
 /* SECTION - PRINCIPAL */
