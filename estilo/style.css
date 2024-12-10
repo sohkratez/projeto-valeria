@@ -57,9 +57,12 @@ span {
     transform: scale(1.06);
 }
 
-.menu-lateral {
+.btn-abrir-menu {
     display: none;
 }
+
+/* MENU-MOBILE */
+
 
 /* SECTION - PRINCIPAL */
 .principal {
