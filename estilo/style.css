@@ -68,7 +68,7 @@ span {
 }
 
 .menu-mobile {
-    background-color: #fff;
+    background-color: #000;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -85,6 +85,7 @@ span {
 
 .menu-mobile.abrir-menu ~ .overlay-menu {
     display: block;
+    opacity: 1;
 }
 
 .menu-mobile .btn-fechar {
@@ -114,7 +115,7 @@ span {
 }
 
 .overlay-menu {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -122,6 +123,7 @@ span {
     left: 0;
     z-index: 88888;
     display: none;
+    transition: opacity 0.3s ease;
 }
 
 /* SECTION - PRINCIPAL */
